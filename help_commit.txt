@@ -1,5 +1,5 @@
-Установили пакеты.
-
-npm install --save-dev @babel/core @babel/preset-env
-npm install --save-dev babel-loader
+Настройки  @babel вынесем в отдельный файд .babelrc.
+При подключении use: ['babel-loader'], в файле webpack.config.js.
+Настройки можно записать в webpack.config.js, а можно указать только
+use: ['babel-loader'] и webpack будет искать файил .babelrс сам.
 
