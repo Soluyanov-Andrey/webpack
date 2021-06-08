@@ -1,1 +1,8 @@
-В данном коммите задали структуру проекта.
+Установили пакеты.
+
+npm install --save-dev webpack
+npm install --save-dev webpack-cli
+
+Запустить просто webpack можно
+
+npx webpack.
