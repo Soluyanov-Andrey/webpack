@@ -1,6 +1,3 @@
-Устанавливаем
-npm install --save-dev @babel/preset-react
-npm install --save react react-dom
+C такими настройками react уже работает.
 
-C такими настройками уже создается bundle.js
 
