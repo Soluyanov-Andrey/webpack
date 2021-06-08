@@ -1,16 +1,11 @@
-class Person {
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-    // Приватный метод
-    #setType() {
-        console.log("I am Private");
-    }
+import App from './App';
 
-    // Публичный метод
-    show() {
-        this.#setType();
-    }
-}
+const title = 'My Minimal React Webpack Babel Setup';
 
-const personObj = new Person();
-personObj.show(); // "I am Private";
-personObj.setType(); // TypeError: personObj.setType is not a function
+ReactDOM.render(
+    <App title={title} />,
+    document.getElementById('app')
+);

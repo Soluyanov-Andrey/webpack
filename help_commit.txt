@@ -1,5 +1,6 @@
-Настройки  @babel вынесем в отдельный файд .babelrc.
-При подключении use: ['babel-loader'], в файле webpack.config.js.
-Настройки можно записать в webpack.config.js, а можно указать только
-use: ['babel-loader'] и webpack будет искать файил .babelrс сам.
+Устанавливаем
+npm install --save-dev @babel/preset-react
+npm install --save react react-dom
+
+C такими настройками уже создается bundle.js
 
