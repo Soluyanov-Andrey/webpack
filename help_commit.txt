@@ -1,4 +1,2 @@
-Можно еще установить react-hot-loader.
-Для мгновенной перересовки компанента в браузере без перезагрузки браузера.
-npm install react-hot-loader --save-dev
+Убрал папку dict из gitignore
 
